@@ -39,7 +39,7 @@ async def on_message(message):
   
   if message.content.startswith('/help' or '/commands'):
     await message.channel.send('This bot will only respond to the commands that are preceded with a forward slash (/)')
-  #  await message.channel.send('/pingthem - tag Baquir, Kushagra, Isa, Naman, Faraaz, Harshit, and Ayush to let them know you are online and waiting a game ( exclusively for the members of ping spike) \n')
+  #  await message.channel.send('/pingthem - tag Baquir, Kushagra, Isa, Naman, Faraaz, Harshit, and Ayush to let them know you are online and waiting a game ( exclusively for the members of ping spike, a group of 7 friends who play Valorant together) \n')
     await message.channel.send('/hello - welcome the bot in your server')
     await message.channel.send('/help - get the list of commands')
     await message.channel.send('/gn - when you are going offline this command will let your teammates know\n')
